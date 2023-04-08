@@ -12,6 +12,7 @@ int main()
         }
         printf("\n");
     }
+    printf("%d\n",arr[1][3]);
 
     return 0;
 }
