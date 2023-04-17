@@ -12,6 +12,7 @@ int main()
     // Writing in a file
     ptr = fopen("myfiletwo.txt", "a");
     fprintf(ptr, "%s\n", string);
+    fclose(ptr);
     
 
 
